@@ -1,0 +1,31 @@
+body{
+    background-color: #FFFFFF;
+}
+img {
+    margin:auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{display:inline;}
+  li a {
+    padding:10px;
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+  }
+  li a:hover {
+      text-decoration: underline;
+  }
+
+#footer{
+    /* position:sticky; */
+    position:fixed;
+    bottom:2
+    px;
+    display:block;
+    border: 1px solid #e7e7e7;
+  background-color: #b6b5c0;
+  padding-top: 10px;
+}
