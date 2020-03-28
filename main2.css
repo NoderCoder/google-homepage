@@ -1,0 +1,34 @@
+.container {
+    background-color:white;
+    width: 100%;
+    min-height: 100%;
+    display: grid;
+    /* grid-template-columns:auto; */
+    grid-template-rows:auto 200% auto ;
+    grid-template-areas:
+    "head"
+    "body"
+    "foot";
+}
+ul >li{display:inline;}
+  li a {
+    padding:10px;
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+  }
+  li a:hover {
+      text-decoration: underline;
+  }
+
+.header{
+    /* background-color: teal; */
+    grid-area: head;
+}
+.BodyContainer{
+    background-color: lime;
+    grid-area: body;
+}
+.footer{
+    background-color:lightgray;
+    grid-area: foot;
+}

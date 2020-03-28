@@ -1,5 +1,7 @@
-body{
-    background-color: #FFFFFF;
+.container{
+    background-color: #000;
+    width: 100%;
+    min-height: 100%;
 }
 img {
     margin:auto;
@@ -22,9 +24,7 @@ img {
   #footer {
 
      position:relative; 
-    margin: 50px;
-    /* position:absolute, bottom: 0, width: 100%; */
-    top:300px;
+    bottom: 5px;
     display:block;
     border: 1px solid #e7e7e7;
     background-color: #b6b5c0;
