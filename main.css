@@ -4,12 +4,12 @@ body{
 img {
     margin:auto;
 }
-ul {
+#header {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-li{display:inline;}
+ ul >li{display:inline;}
   li a {
     padding:10px;
     text-decoration:none;
@@ -19,13 +19,16 @@ li{display:inline;}
       text-decoration: underline;
   }
 
-#footer{
-    /* position:sticky; */
-    position:fixed;
-    bottom:2
-    px;
+  #footer {
+
+     position:relative; 
+    margin: 50px;
+    /* position:absolute, bottom: 0, width: 100%; */
+    top:300px;
     display:block;
     border: 1px solid #e7e7e7;
-  background-color: #b6b5c0;
-  padding-top: 10px;
-}
+    background-color: #b6b5c0;
+    margin: 0px;
+    border: 0px;
+    padding-top: 10px;
+  }
